@@ -1,6 +1,8 @@
 -- Schemat bazy: Firma, Pracownicy, Obroty, Zatrudnienie
 -- Uruchomienie: mysql -u root -p < schemat.sql
 
+SET NAMES utf8mb4;
+
 DROP DATABASE IF EXISTS firmy;
 CREATE DATABASE firmy CHARACTER SET utf8mb4 COLLATE utf8mb4_polish_ci;
 USE firmy;
